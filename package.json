@@ -1,0 +1,29 @@
+{
+  "name": "preview-modal",
+  "version": "1.0.3",
+  "description": "A simple modal to preview your components in a modal, without worrying about other components on your page or breaking it.",
+  "main": "./dist/preview-modal.umd.js",
+  "module": "./dist/preview-modal.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "preview",
+    "modal",
+    "component"
+  ],
+  "author": "Eitan Steven Gil",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-react-swc": "^3.7.1",
+    "vite": "^5.4.10"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
